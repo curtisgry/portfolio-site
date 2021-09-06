@@ -1,0 +1,14 @@
+.auto-text {
+    margin-top: 2rem;
+}
+
+.blink {
+  opacity: 0;
+  animation: blinkCursor 1s steps(2) infinite;
+}
+
+@keyframes blinkCursor {
+    to {
+        opacity: 1
+    }
+}
