@@ -1,16 +1,14 @@
-import React from 'react'
-import {useInView} from 'react-intersection-observer'
-import js from '../images/javascript.svg'
+import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
-export default function SkillItem({title, image}) {
-    const [ref, inView] = useInView({threshold: 0, triggerOnce: true})
 
-    return (
+export default function SkillItem({ title, image }) {
+  const [ref, inView] = useInView({ threshold: 0, triggerOnce: true });
 
-                <div ref={ref} className={`skill-item ${inView ? 'visible': ''}`}>
-                    <span>{title}</span>
-                    <img className="tech-icon" src={image}/>
-                </div>
-                
-    )
+  return (
+    <div ref={ref} className={`skill-item ${inView ? 'visible' : ''}`}>
+      <span>{title}</span>
+      <img className="tech-icon" src={image} />
+    </div>
+  );
 }

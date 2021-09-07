@@ -1,0 +1,49 @@
+.project-container {
+  opacity: 0;
+  background-color: $gp-light;
+  color: white;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.2s ease;
+  img {
+    width: 250px;
+  }
+  a {
+    font-size: 1.2rem;
+    color: $yellow;
+    text-decoration: none;
+  }
+  .icon {
+    width: 30px;
+    fill: white;
+  }
+}
+
+.grow {
+  transform: scale(1.05);
+  color: black;
+  background-color: lighten($gp-light, 50);
+  a {
+    color: black;
+  }
+  .icon {
+    fill: black;
+  }
+
+  a:hover {
+    color: $purple;
+    .icon {
+      fill: $purple;
+    }
+  }
+}
+
+.project-show {
+  opacity: 1;
+}

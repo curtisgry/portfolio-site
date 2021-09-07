@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import ProjectItem from './ProjectItem';
+
+import projects from '../data/projects';
 
 export default function Projects() {
-    return (
-        <div id="projects" className="container">
-            <h1>test Projects</h1>
-        </div>
-    )
+  const projList = projects.map((project) => (
+    <ProjectItem key={project.id} project={project} />
+  ));
+
+  return (
+    <div id="projects" className="container">
+      <h1>Some things I've made</h1>
+      <div className="project-list">{projList}</div>
+    </div>
+  );
 }
