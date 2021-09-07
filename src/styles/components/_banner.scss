@@ -11,28 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: shrink 1s ease forwards 3s;
-}
-
-.icons-container {
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  width: 200px;
-  //   height: 50px;
-  display: flex;
-  justify-content: space-evenly;
-
-  .icon {
-    width: 34px;
-    fill: white;
-  }
-
-  a:hover {
-    .icon {
-      fill: black;
-    }
-  }
+  // animation: shrink 1s ease forwards 3s;
 }
 
 .banner-border {

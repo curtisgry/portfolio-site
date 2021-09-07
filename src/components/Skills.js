@@ -12,6 +12,7 @@ import gatsbyicon from '../images/gatsby.svg';
 import mongo from '../images/mongodb.svg';
 import sc from '../images/styledcomponents.svg';
 import gh from '../images/github.svg';
+import google from '../images/google.svg';
 
 import SkillItem from './SkillItem';
 
@@ -37,11 +38,15 @@ export default function Skills() {
         <SkillItem title="Sass" image={sass} />
         <SkillItem title="Gatsby" image={gatsbyicon} />
       </div>
-      <span className="sub-title">...and I'm currently exploring</span>
+      <span className="sub-title">...and I'm currently exploring..</span>
       <div className="skills-container">
         <SkillItem title="MongoDB" image={mongo} />
         <SkillItem title="Styled Comp." image={sc} />
         <SkillItem title="Webpack" image={webpack} />
+      </div>
+      <span className="sub-title">...and I am an expert at...</span>
+      <div className="skills-container-flex">
+        <SkillItem title="Googling" image={google} />
       </div>
     </div>
   );

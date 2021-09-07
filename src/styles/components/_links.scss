@@ -1,0 +1,28 @@
+.icons-container {
+  //   height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+
+  .icon {
+    width: 34px;
+    fill: white;
+  }
+
+  a:hover {
+    .icon {
+      fill: black;
+    }
+  }
+}
+
+.icons-top {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 200px;
+}
+
+.icons-bottom {
+  position: relative;
+  width: 200px;
+}

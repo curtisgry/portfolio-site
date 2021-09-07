@@ -1,42 +1,12 @@
 import React from 'react';
 import AutoType from './AutoType';
 
-import Github from './icons/Github';
-import Gmail from './icons/Gmail';
-import LinkedIn from './icons/LinkedIn';
+import Links from './Links';
 
 export default function Banner() {
   return (
     <section className="banner">
-      <div className="icons-container">
-        <div className="icon">
-          <a
-            href="https://github.com/curtisgry"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Github />
-          </a>
-        </div>
-        <div className="icon">
-          <a
-            href="https://www.linkedin.com/in/curtis-gray"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedIn />
-          </a>
-        </div>
-        <div className="icon">
-          <a
-            href="mailto: gray.curtis1@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Gmail />
-          </a>
-        </div>
-      </div>
+      <Links placement="top"/>
       <div className="banner-border">
         <svg
           className="name"

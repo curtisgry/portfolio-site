@@ -6,6 +6,10 @@ export default function ProjectItem({ project }) {
   const [ref, inView] = useInView({ threshold: 0.3, triggerOnce: true });
   const [mousein, setMouseIn] = useState(false);
 
+  const stackIcons = project.stack.map((icon) => (
+    <img className="stack-icon" src={icon} />
+  ));
+
   function toggleMouseIn() {
     setMouseIn((last) => !last);
   }
@@ -22,6 +26,7 @@ export default function ProjectItem({ project }) {
       <h3>{project.title}</h3>
       <p>{project.desc}</p>
       <img src={project.image} />
+      <div className="stack-container">{stackIcons}</div>
       <a href={project.link} target="_blank" rel="noreferrer">
         Live Version
       </a>

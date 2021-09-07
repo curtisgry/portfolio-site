@@ -1,49 +1,50 @@
 .skill-item {
-    opacity: 0;
-    transform: translateY(100px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $gp-dark;
-    padding: 5px;
-    width: 100%;
-    border-radius: 2px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 0;
+  transform: translateY(100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $gp-dark;
+  padding: 5px;
+  width: 100%;
 
-    transition: all 1s ease;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    &:nth-of-type(1){
-        transition-delay: 0.0s;
-    }
-    &:nth-of-type(2){
-        transition-delay: 0.1s;
-    }
-    &:nth-of-type(3){
-        transition-delay: 0.2s;
-    }
-    &:nth-of-type(4){
-        transition-delay: 0.3s;
-    }
-    &:nth-of-type(5){
-        transition-delay: 0.4s;
-    }
-    &:nth-of-type(6){
-        transition-delay: 0.5s;
-    }
-    &:nth-of-type(7){
-        transition-delay: 0.6s;
-    }
+  transition: all 1s ease;
 
- span {
-     font-size: 1.05rem;
- }
+  &:nth-of-type(1) {
+    transition-delay: 0s;
+  }
+  &:nth-of-type(2) {
+    transition-delay: 0.1s;
+  }
+  &:nth-of-type(3) {
+    transition-delay: 0.2s;
+  }
+  &:nth-of-type(4) {
+    transition-delay: 0.3s;
+  }
+  &:nth-of-type(5) {
+    transition-delay: 0.4s;
+  }
+  &:nth-of-type(6) {
+    transition-delay: 0.5s;
+  }
+  &:nth-of-type(7) {
+    transition-delay: 0.6s;
+  }
+
+  span {
+    font-size: 1.05rem;
+  }
 }
 
 .tech-icon {
-width: 30px;
+  width: 30px;
 }
 
 .visible {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
