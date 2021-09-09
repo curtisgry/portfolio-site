@@ -26,3 +26,20 @@
   position: relative;
   width: 200px;
 }
+
+@media (max-width: 414px) {
+  .icons-container {
+    .icon {
+      width: 25px;
+      margin-right: 15px;
+    }
+  }
+
+  .icons-top,
+  .icons-bottom {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+  }
+}

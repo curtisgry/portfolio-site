@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-container">
         <Links placement="bottom" />
         <p>
-          Build with <a href="https://www.gatsbyjs.com/">Gatsby</a>. <br />{' '}
+          Built with <a href="https://www.gatsbyjs.com/">Gatsby</a>. <br />{' '}
           Icons from <a href="https://simpleicons.org/">Simple Icons</a>.
         </p>
       </div>

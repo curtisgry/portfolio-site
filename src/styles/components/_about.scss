@@ -1,12 +1,22 @@
 .about-container {
-    padding: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 60%;
-    h1 {
-        margin-bottom: 30px
-    }
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 60%;
+  h1 {
+    margin-bottom: 30px;
+  }
+  p {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    width: 90%;
+    margin-top: 20px;
     p {
-        text-align: left;
-        font-size: 1.4rem;
+      font-size: 1.15rem;
     }
+  }
 }

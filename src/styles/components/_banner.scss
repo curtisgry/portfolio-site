@@ -6,6 +6,7 @@
     rgba(92, 83, 137, 1) 100%
   );
   color: #fff;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -99,5 +100,14 @@
 @keyframes shrink {
   to {
     height: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-border {
+    width: 90%;
+  }
+
+  .name {
+    width: 100%;
   }
 }

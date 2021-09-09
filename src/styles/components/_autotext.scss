@@ -1,5 +1,5 @@
 .auto-text {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .blink {
@@ -8,7 +8,15 @@
 }
 
 @keyframes blinkCursor {
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 540px) {
+  .auto-text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+  }
 }

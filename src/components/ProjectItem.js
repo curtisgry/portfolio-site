@@ -27,12 +27,14 @@ export default function ProjectItem({ project }) {
       <p>{project.desc}</p>
       <img src={project.image} />
       <div className="stack-container">{stackIcons}</div>
-      <a href={project.link} target="_blank" rel="noreferrer">
-        Live Version
-      </a>
-      <a href={project.linkGit} target="_blank" rel="noreferrer">
-        <Github />
-      </a>
+      <div className="project-links">
+        <a href={project.link} target="_blank" rel="noreferrer">
+          Live Version
+        </a>
+        <a href={project.linkGit} target="_blank" rel="noreferrer">
+          <Github />
+        </a>
+      </div>
     </div>
   );
 }

@@ -19,9 +19,7 @@ import SkillItem from './SkillItem';
 export default function Skills() {
   return (
     <div id="skills" className="container">
-      <div className="head-container">
-        <h2 className="section-header">Skills</h2>
-      </div>
+      <h3 className="section-header">Skills</h3>
       <span className="sub-title">I am proficient in...</span>
       <div className="skills-container">
         <SkillItem title="Javascript" image={js} />
@@ -45,7 +43,7 @@ export default function Skills() {
         <SkillItem title="Webpack" image={webpack} />
       </div>
       <span className="sub-title">...and I am an expert at...</span>
-      <div className="skills-container-flex">
+      <div className="skills-container skills-container-flex">
         <SkillItem title="Googling" image={google} />
       </div>
     </div>

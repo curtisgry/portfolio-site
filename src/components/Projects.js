@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <div id="projects" className="container">
-      <h1>Some things I've made</h1>
+      <h3 className="section-header">Some things I've made</h3>
       <div className="project-list">{projList}</div>
     </div>
   );

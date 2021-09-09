@@ -1,11 +1,11 @@
 .skills-container {
-  width: 40%;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 .skills-container-flex {
@@ -16,13 +16,6 @@
   justify-content: center;
 }
 
-.head-container {
-  color: white;
-  padding-bottom: 20px;
-  width: 200px;
-  border-bottom: 1px solid gray;
-}
-
 .section-header {
   background-color: white;
   color: black;
@@ -31,4 +24,11 @@
 .sub-title {
   color: white;
   font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 450px) {
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
