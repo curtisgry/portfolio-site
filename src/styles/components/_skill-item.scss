@@ -1,6 +1,6 @@
 .skill-item {
   opacity: 0;
-  transform: translateY(100px);
+  transform: translateX(-100px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,5 +47,5 @@
 
 .visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
 }

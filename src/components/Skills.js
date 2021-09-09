@@ -16,6 +16,7 @@ import google from '../images/google.svg';
 
 import SkillItem from './SkillItem';
 
+
 export default function Skills() {
   return (
     <div id="skills" className="container">
