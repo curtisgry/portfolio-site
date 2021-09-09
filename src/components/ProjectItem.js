@@ -7,7 +7,7 @@ export default function ProjectItem({ project }) {
   const [mousein, setMouseIn] = useState(false);
 
   const stackIcons = project.stack.map((icon) => (
-    <img className="stack-icon" src={icon} />
+    <img className="stack-icon" src={icon} alt="icon" />
   ));
 
   function toggleMouseIn() {
@@ -25,7 +25,7 @@ export default function ProjectItem({ project }) {
     >
       <h3>{project.title}</h3>
       <p>{project.desc}</p>
-      <img src={project.image} />
+      <img alt="A screenshot of the project" src={project.image} />
       <div className="stack-container">{stackIcons}</div>
       <div className="project-links">
         <a href={project.link} target="_blank" rel="noreferrer">

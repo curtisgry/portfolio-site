@@ -7,7 +7,7 @@ export default function SkillItem({ title, image }) {
   return (
     <div ref={ref} className={`skill-item ${inView ? 'visible' : ''}`}>
       <span>{title}</span>
-      <img className="tech-icon" src={image} />
+      <img className="tech-icon" src={image} alt="icon" />
     </div>
   );
 }

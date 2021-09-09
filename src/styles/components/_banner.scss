@@ -7,8 +7,7 @@
   );
   color: #fff;
   width: 100%;
-  // height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,13 +34,13 @@
   width: 50vw;
 
   path:nth-child(2) {
-    stroke-dasharray: 508.55157470703125;
+    stroke-dasharray: 510;
     stroke-dashoffset: 510;
     animation: stroke 1s ease forwards;
   }
   path:nth-child(3) {
-    stroke-dasharray: 483.89251708984375;
-    stroke-dashoffset: 483.89251708984375;
+    stroke-dasharray: 484;
+    stroke-dashoffset: 484;
     animation: stroke 1s ease forwards 0.2s;
   }
   path:nth-child(4) {

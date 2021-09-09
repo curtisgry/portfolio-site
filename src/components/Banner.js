@@ -1,15 +1,7 @@
 import React, { useEffect } from 'react';
 import AutoType from './AutoType';
-import { isBrowser } from '../utils/utils';
 
 import Links from './Links';
-
-let vh;
-if (!isBrowser) {
-  // get height of  browser window
-  vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
 
 export default function Banner() {
   return (
