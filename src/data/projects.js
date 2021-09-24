@@ -3,6 +3,7 @@ import shopapp from '../images/shopapp.png';
 import tipcalculator from '../images/tipcalculator.png';
 import weatherapp from '../images/simpleweather.png';
 import etchasketch from '../images/etchasketch.png';
+import sunnyside from '../images/sunnyside.png';
 
 import js from '../images/javascript.svg';
 import html from '../images/html5.svg';
@@ -40,12 +41,12 @@ const projects = [
   },
   {
     id: v4(),
-    title: 'Quick Weather',
-    desc: 'This is a very simple weather app that uses the open weather map api as well as the zippopotam zip code api for additional location information.',
-    stack: [js, html, css],
-    link: 'https://curtisgry.github.io/quick-weather/',
-    linkGit: 'https://github.com/curtisgry/quick-weather',
-    image: weatherapp,
+    title: 'Sunnyside Agency',
+    desc: 'A recreation of a web design for a fake design agency. Made with semantic HTML5 and SASS. Flexbox used for layout. Organized using the BEM methodology',
+    stack: [html, css, sass],
+    link: 'https://curtisgry.github.io/sunnyside-agency/',
+    linkGit: 'https://github.com/curtisgry/sunnyside-agency',
+    image: sunnyside,
   },
   {
     id: v4(),

@@ -13,7 +13,7 @@ export default function ProjectItem({ project }) {
   function toggleMouseIn() {
     setMouseIn((last) => !last);
   }
-
+  // TODO: Remove hover effects for mobile devices
   return (
     <div
       ref={ref}
