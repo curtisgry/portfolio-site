@@ -4,6 +4,7 @@ import tipcalculator from '../images/tipcalculator.png';
 import weatherapp from '../images/simpleweather.png';
 import etchasketch from '../images/etchasketch.png';
 import sunnyside from '../images/sunnyside.png';
+import craftory from '../images/craftory.png';
 
 import js from '../images/javascript.svg';
 import html from '../images/html5.svg';
@@ -19,21 +20,22 @@ import mongo from '../images/mongodb.svg';
 import sc from '../images/styledcomponents.svg';
 import gh from '../images/github.svg';
 import google from '../images/google.svg';
+import bootstrap from '../images/bootstrap.png';
 
 const projects = [
   {
     id: v4(),
-    title: 'React Shopping Cart',
-    desc: 'This project is a mock store app I made to explore more with React. The user can add items to their cart, change quantities and delete from cart.',
-    stack: [js, html, css, re],
-    link: 'https://curtisgry.github.io/shopping-cart/#/',
-    linkGit: 'https://github.com/curtisgry/shopping-cart',
-    image: shopapp,
+    title: 'Craftory',
+    desc: 'Craftory is a full stack application built with the MERN stack. It is an inventory management application for a local candle making company that can also be used by other people who make things and need to keep track of their materials.',
+    stack: [js, html, css, mongo, re, nodejs, bootstrap],
+    link: 'https://calm-wave-18798.herokuapp.com/',
+    linkGit: 'https://github.com/curtisgry/craftory',
+    image: craftory,
   },
   {
     id: v4(),
     title: 'Tip Calculator',
-    desc: 'A simple application for calculating a tip and spliting it with friends. Build with vanilla Javascript, HTML and CSS.',
+    desc: 'An application for calculating a tip and spliting it with friends. Build with vanilla Javascript, HTML and CSS.',
     stack: [js, html, css],
     link: 'https://determined-pike-b95fcb.netlify.app/',
     linkGit: 'https://github.com/curtisgry/tip-calculator-challenge',

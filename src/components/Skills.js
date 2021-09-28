@@ -16,29 +16,21 @@ import google from '../images/google.svg';
 
 import SkillItem from './SkillItem';
 
-
 export default function Skills() {
   return (
     <div id="skills" className="container">
       <h3 className="section-header">Skills</h3>
-      <span className="sub-title">I am proficient in...</span>
+      <span className="sub-title">Here's what I can do</span>
       <div className="skills-container">
         <SkillItem title="Javascript" image={js} />
         <SkillItem title="HTML" image={html} />
         <SkillItem title="CSS" image={css} />
-        <SkillItem title="NPM" image={npm} />
         <SkillItem title="GitHub" image={gh} />
-      </div>
-      <span className="sub-title">...I am getting better with...</span>
-      <div className="skills-container">
         <SkillItem title="React" image={re} />
         <SkillItem title="Express" image={express} />
         <SkillItem title="Node.js" image={nodejs} />
         <SkillItem title="Sass" image={sass} />
         <SkillItem title="Gatsby" image={gatsbyicon} />
-      </div>
-      <span className="sub-title">...and I'm currently exploring..</span>
-      <div className="skills-container">
         <SkillItem title="MongoDB" image={mongo} />
         <SkillItem title="Styled Comp." image={sc} />
         <SkillItem title="Webpack" image={webpack} />
