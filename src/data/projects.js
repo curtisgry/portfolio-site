@@ -5,6 +5,7 @@ import weatherapp from '../images/simpleweather.png';
 import etchasketch from '../images/etchasketch.png';
 import sunnyside from '../images/sunnyside.png';
 import craftory from '../images/craftory.png';
+import voyager from '../images/voyager.png';
 
 import js from '../images/javascript.svg';
 import html from '../images/html5.svg';
@@ -34,6 +35,15 @@ const projects = [
   },
   {
     id: v4(),
+    title: 'Voyager Synth',
+    desc: 'A web synthisizer and sequencer powered by the Web Audio API. Built with React and Styled Components. The user can change settings and effects to experiment with sound',
+    stack: [re, sc, js, html, css],
+    link: 'https://modest-mahavira-5f4d4d.netlify.app/',
+    linkGit: 'https://github.com/curtisgry/voyager-synth',
+    image: voyager,
+  },
+  {
+    id: v4(),
     title: 'Tip Calculator',
     desc: 'An application for calculating a tip and spliting it with friends. Build with vanilla Javascript, HTML and CSS.',
     stack: [js, html, css],
@@ -49,15 +59,6 @@ const projects = [
     link: 'https://curtisgry.github.io/sunnyside-agency/',
     linkGit: 'https://github.com/curtisgry/sunnyside-agency',
     image: sunnyside,
-  },
-  {
-    id: v4(),
-    title: 'Etch a Sketch',
-    desc: 'This project was a great way to get better with javascript as well as using css flexbox. Change grid size and color effects and draw by hovering over the box.',
-    stack: [js, html, css],
-    link: 'https://curtisgry.github.io/EtchASketch/',
-    linkGit: 'https://github.com/curtisgry/EtchASketch',
-    image: etchasketch,
   },
 ];
 
