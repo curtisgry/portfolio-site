@@ -36,7 +36,7 @@ const projects = [
   {
     id: v4(),
     title: 'Voyager Synth',
-    desc: 'A web synthisizer and sequencer powered by the Web Audio API. Built with React and Styled Components. The user can change settings and effects to experiment with sound',
+    desc: 'A web synthesizer and sequencer powered by the Web Audio API. Built with React and Styled Components. The user can change settings and effects to experiment with sound.',
     stack: [re, sc, js, html, css],
     link: 'https://modest-mahavira-5f4d4d.netlify.app/',
     linkGit: 'https://github.com/curtisgry/voyager-synth',
