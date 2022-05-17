@@ -25,7 +25,11 @@ export default function ProjectItem({ project }) {
     >
       <h3>{project.title}</h3>
       <p>{project.desc}</p>
-      <img alt="A screenshot of the project" src={project.image} />
+      <img
+        className="screenshot"
+        alt="A screenshot of the project"
+        src={project.image}
+      />
       <div className="stack-container">{stackIcons}</div>
       <div className="project-links">
         <a href={project.link} target="_blank" rel="noreferrer">

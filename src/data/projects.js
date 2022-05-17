@@ -6,6 +6,8 @@ import etchasketch from '../images/etchasketch.png';
 import sunnyside from '../images/sunnyside.png';
 import craftory from '../images/craftory.png';
 import voyager from '../images/voyager.png';
+import myFlix from '../images/myflix.png';
+import pokedex from '../images/pokedex.png';
 
 import js from '../images/javascript.svg';
 import html from '../images/html5.svg';
@@ -26,12 +28,12 @@ import bootstrap from '../images/bootstrap.png';
 const projects = [
   {
     id: v4(),
-    title: 'Craftory',
-    desc: 'Craftory is a full stack application built with the MERN stack. It is an inventory management application for a local candle making company that can also be used by other people who make things and need to keep track of their materials.',
+    title: 'myFlix',
+    desc: 'myFlix is a full stack application build with the MERN stack. The purpose is for finding movies and information about things related to them like the director, summary, and genre.',
     stack: [js, html, css, mongo, re, nodejs, bootstrap],
-    link: 'https://calm-wave-18798.herokuapp.com/',
-    linkGit: 'https://github.com/curtisgry/craftory',
-    image: craftory,
+    link: 'https://myflix-5f2a35.netlify.app/',
+    linkGit: 'https://github.com/curtisgry/myflix-client',
+    image: myFlix,
   },
   {
     id: v4(),
@@ -53,12 +55,12 @@ const projects = [
   },
   {
     id: v4(),
-    title: 'Sunnyside Agency',
-    desc: 'A recreation of a web design for a fake design agency. Made with semantic HTML5 and SASS. Flexbox used for layout. Organized using the BEM methodology',
-    stack: [html, css, sass],
-    link: 'https://curtisgry.github.io/sunnyside-agency/',
-    linkGit: 'https://github.com/curtisgry/sunnyside-agency',
-    image: sunnyside,
+    title: 'Pokedex',
+    desc: 'This application was made using the fetch API to get the necessary information from https://pokeapi.co into the list displayed on the page. It is a list of buttons that when clicked will show you some details about that Pokemon.',
+    stack: [html, css, bootstrap, js],
+    link: 'https://curtisgry.github.io/cf-javascript-app/',
+    linkGit: 'https://github.com/curtisgry/cf-javascript-app',
+    image: pokedex,
   },
 ];
 
