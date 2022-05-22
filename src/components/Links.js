@@ -22,7 +22,7 @@ export default function Links({ placement }) {
       </div>
       <div className="icon">
         <a
-          href="mailto: gray.curtis1@gmail.com"
+          href="mailto: curtisgray.dev@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
